@@ -27,9 +27,9 @@ main {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(100, 196, 183, 0.818);
     padding: 1rem;
-    background-color: #95e9fe ;
+    background-color: #a5d2dd ;
     color: #000000;
     text-align: center;
 }
@@ -39,6 +39,6 @@ aside img {
 }
 footer {
     margin-top: 10px;
-    border-top: 1px solid lemonchiffon;
+    border-top: 1px solid rgb(0, 0, 0);
     text-align: center;
 }
