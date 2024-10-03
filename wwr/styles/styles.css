@@ -17,7 +17,7 @@ h1 {
     background-color: var(--primary-color);
     padding: var(--padding);
     font-family: var(--heading_font);
-    font-size: 700;
+    font-size: 100px;
     
 }
 h2 {
@@ -26,12 +26,12 @@ h2 {
     background-color: var(--primary-color);
     padding: var(--padding);
     font-family: "Bona Nova", serif;
-    font-size: 400;
+    font-size: 50px;
 }
 
 p {
     font-family: "Poppins", sans-serif;
-    font-weight: 400;
+    font-weight: 50px;
     background-color: var(--secondary-color);
     padding: var(--padding);
 }
@@ -58,7 +58,7 @@ body {
 article {
     position: absolute;
     top: 250px;
-    left: 200px;
+    left: 100px;
 
     
 }
@@ -66,7 +66,7 @@ article {
 article img {
     
     float: right;
-    margin-right: 20px;
+    margin-left: 20px;
     max-width: 250px;
     
     
