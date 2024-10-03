@@ -9,12 +9,15 @@
 
 
 
+
 h1 {
     position: absolute;
     top: 20px;
     left: 20px;
     background-color: var(--primary-color);
     padding: var(--padding);
+    font-family: var(--heading_font);
+    font-size: 700;
     
 }
 h2 {
@@ -22,10 +25,13 @@ h2 {
     left: 20px;
     background-color: var(--primary-color);
     padding: var(--padding);
+    font-family: "Bona Nova", serif;
+    font-size: 400;
 }
 
 p {
     font-family: "Poppins", sans-serif;
+    font-weight: 400;
     background-color: var(--secondary-color);
     padding: var(--padding);
 }
