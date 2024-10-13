@@ -2,7 +2,7 @@
     --primary-color: #A97C73;
     --secondary-color: #314049;
     --accent1-color: #7AE7C7;
-    --accent2-color: #FFC15F;
+    --accent2-color: #d9a552;
     --padding: 1rem;
     --heading_font: "Bona Nova", serif;
 }
@@ -60,7 +60,7 @@ h1 {
     position: absolute;
     top: 20px;
     left: 20px;
-    background-color: var(--primary-color);
+    background-color: var(--accent2-color);
     padding: var(--padding);
     font-family: "Bona Nova", serif;
     font-size: 100px;
@@ -69,7 +69,7 @@ h1 {
 h2 {
     top: 20px;
     left: 20px;
-    background-color: var(--primary-color);
+    background-color: var(--accent2-color);
     padding: var(--padding);
     font-family: "Bona Nova", serif;
     font-size: 50px;
@@ -78,7 +78,7 @@ h2 {
 p {
     font-family: "Poppins", sans-serif;
     font-size: 20px;
-    background-color: var(--secondary-color);
+    background-color: whitesmoke;
     padding: 10px;
 }
 
@@ -110,7 +110,7 @@ body {
   margin: 0 auto;
   padding: 0 20px;
   background-color: whitesmoke;
-  color: var(--accent2-color);
+  color: var(--secondary-color);
 }
 
 .hero {
@@ -171,7 +171,7 @@ article img {
 figcaption {
   margin-top: 10px;
   font-size: 24px;
-  color: var(--accent2-color);
+  color: var(--secondary-color);
 }
 
 
