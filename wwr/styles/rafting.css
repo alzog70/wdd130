@@ -126,8 +126,11 @@ body {
 
 article {
     position: absolute;
-    top: 250px;
-    left: 100px;
+    top: 500px;
+    left: 0px;
+    right: 0px;
+    padding: 10px;
+    
 
     
 }
