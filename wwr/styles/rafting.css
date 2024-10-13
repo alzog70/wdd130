@@ -62,7 +62,7 @@ h1 {
     left: 20px;
     background-color: var(--primary-color);
     padding: var(--padding);
-    font-family: var(--heading_font);
+    font-family: "Bona Nova", serif;
     font-size: 100px;
     
 }
