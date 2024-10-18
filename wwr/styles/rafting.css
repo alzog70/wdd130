@@ -66,6 +66,15 @@ h1 {
     font-size: 100px;
     
 }
+
+.contact h1 {
+  position: static;
+  font-size: 50px;
+  margin: 0;
+  padding: var(--padding);
+  background-color: var(--accent2-color);
+}
+
 h2 {
     top: 20px;
     left: 20px;
