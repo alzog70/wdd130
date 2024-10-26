@@ -134,6 +134,11 @@ body {
     height: auto;
 }
 
+.hero h1 {
+  color: var(--secondary-color);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
 article {
     position: absolute;
     top: 500px;
@@ -161,15 +166,16 @@ article img {
 }
 
 .adventures-grid {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   justify-content: space-between;
   flex-wrap: nowrap;
-  gap: 10px;
+  gap: 20px;
   margin-top: 10px;
 }
 
 .adventures-grid figure {
-  width: 25%;
+  width: 75%;
   text-align: center;
 }
 
@@ -285,11 +291,16 @@ input, select, textarea {
   font-size: 1em;
 }
 
-input[type="checkbox"] {
+/* input[type="checkbox"] {
   width: 2rem;
   height: 2rem;
   vertical-align: bottom;
   margin-left: 450px;
+} */
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
 }
 
 button {
@@ -399,6 +410,63 @@ button:hover {
   justify-content: center;
 }
 
+.trips-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  align-self: center;
+  text-align: center;
+}
+.trips-link:hover {
+  background-color: var(--accent1-color);
+  color: var(--secondary-color);
+}
+
+.section {
+  margin-top: 20px;
+  padding: 20px;
+}
+.adventures-grid figure img {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.-grid {
+  display: grid;
+  grid-template-columns: 1fr 250px 1fr;
+  align-items: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+.learn_more-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.trip-table {
+  width: 100%;
+  margin-top: 20px;
+  font-family: "Poppins", sans-serif;
+  color: var(--secondary-color);
+}
+
+.trip-table th, .trip-table td {
+  padding: 20px;
+  text-align: center;
+  border: 1px solid var(--accent2-color);
+}
+
+.trip-table th {
+  background-color: var(--secondary-color);
+  color: white;
+ 
+}
 
 
   .poppins-thin {
